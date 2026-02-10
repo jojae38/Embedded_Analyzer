@@ -1,0 +1,34 @@
+/* 실행 중(빨강) */
+QPushButton[running="true"] {
+    background-color: rgb(230, 80, 80);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+QPushButton[running="true"]:hover {
+    background-color: rgb(240, 90, 90);
+}
+QPushButton[running="true"]:pressed {
+    background-color: rgb(210, 60, 60);
+}
+
+
+QPushButton {
+    background-color:rgb(62, 171, 243);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+QPushButton[small="true"] {
+    background-color:rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 1px;
+    border-radius: 2px;
+}
