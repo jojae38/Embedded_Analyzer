@@ -2,3 +2,4 @@
 
 pywebview
 flask
+cx-Freeze
